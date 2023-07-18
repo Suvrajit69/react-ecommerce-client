@@ -1,0 +1,38 @@
+.products {
+  padding: 1.2rem 1.875rem;
+  display: flex;
+
+  .left {
+    flex: 1;
+
+    .filterProducts{
+      margin-bottom: 1.875rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      h2{
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      .inputFilter{
+        margin-bottom: .625rem;
+        label{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .right {
+    flex: 3;
+
+    .catImg {
+      width: 100%;
+      height: 30%;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+  }
+}

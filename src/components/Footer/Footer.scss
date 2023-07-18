@@ -1,0 +1,54 @@
+footer {
+  margin: 6.3rem 5.5rem 1.3rem 5.5rem;
+
+  .top {
+    display: flex;
+    gap: 3.15rem;
+
+    .item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.63rem;
+      text-align: justify;
+      font-size: 0.9rem;
+
+      h1 {
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #555;
+      }
+
+      span {
+        color: gray;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3.15rem;
+    .left {
+        display: flex;
+        align-items: center;
+
+        .logo{
+            color: #2879fe;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .copyright{
+            margin-left: 1.3rem;
+            font-size: 0.75rem;
+            color: gray;
+        }
+    }
+    #payment-options {
+        img{
+            height: 3.125rem;
+        }
+    }
+  }
+}
